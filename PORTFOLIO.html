@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+/* ===== GENERAL ===== */
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f5f7fb;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.profile {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #38bdf8;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 10px 0 5px;
+    font-size: 32px;
+}
+
+header p {
+    color: #cbd5e1;
+}
+
+/* ===== NAV ===== */
+nav {
+    background: #1e293b;
+    text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* ===== SECTIONS ===== */
+section {
+    width: 80%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    border-left: 5px solid #38bdf8;
+    padding-left: 10px;
+    color: #0f172a;
+}
+
+/* ===== PROJECTS ===== */
+.project {
+    background: #f1f5f9;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* ===== SKILLS ===== */
+.skills span {
+    display: inline-block;
+    background: #0f172a;
+    color: white;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    background: #0f172a;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <img src="christine.jpg.jpg" alt="Profile" class="profile">
+    <h1>Christien Joy Cadavos</h1>
+    <p>Bachelor of Science in Information Systems</p>
+</header>
+
+<!-- ===== NAVIGATION ===== -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ===== ABOUT ===== -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am an Information Technology student with experience in web development,
+        system analysis, and real-world OJT training. I am passionate about building
+        efficient, user-friendly, and meaningful systems that solve real problems.
+    </p>
+</section>
+
+<!-- ===== PROJECTS ===== -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Human Resource Management System</h3>
+        <p>RFID-based attendance and employee management system used in LGU environment.</p>
+    </div>
+
+    <div class="project">
+        <h3>Login & Registration System</h3>
+        <p>Secure authentication system using PHP and MySQL database.</p>
+    </div>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This portfolio website hosted using GitHub Pages.</p>
+    </div>
+</section>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>GitHub</span>
+        <span>UI/UX Design</span>
+    </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section id="experience">
+    <h2>Experience</h2>
+    <p>
+        On-the-Job Training (OJT) experience in a government/local office environment,
+        assisting in system operations, documentation, data encoding, and technical support.
+    </p>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: cadavoscj@gmail.com</p>
+    <p>Facebook: https://web.facebook.com/cj.cadavos/yourprofile</p>
+    <p>Phone: 09931273056</p>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    <p>© 2026 Chistine Joy Cadavos | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
